@@ -22,7 +22,26 @@
         &lt;li&gt;입춘굿 : 2/4(화)&lt;/li&gt;\
       &lt;/ol&gt;\
 &lt;/body&gt;\
-&lt;/html&gt;\
+&lt;/html&gt;
+
+### 실행결과
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>탐라국 입춘굿</title>
+  <link rel="stylesheet" href="css/poster.css">
+</head>
+<body>
+    <ol>
+        <li>입춘맞이 : 1/27(월) ~ 1/31(금)</li>
+        <li>낭쉐코사 : 2/1(토)</li>
+        <li>거리굿 : 2/2(일)</li>
+        <li>열림굿 : 2/3(월)</li>
+        <li>입춘굿 : 2/4(화)</li>
+      </ol>
+</body>
+</html>
  
  
   
