@@ -5,9 +5,24 @@
  &lt;head&gt;는 웹 브라우저에 문서 정보를 알려주는 태그\
  &lt;title&gt;는 문서 제목을 나타내는 태그
  
-### HTML에 텍스트 입력하기
- &lt;hn&gt;제목을 크고 진하게 표시하는 태그\
- &lt;p&gt;내용&lt;/p&gt;태그는 
+### HTML 직접 실습하기
+&lt;!DOCTYPE html&gt;\
+&lt;html lang="ko"&gt;\
+&lt;head&gt;\
+  &lt;meta charset="UTF-8"&gt;\
+  &lt;title>탐라국 입춘굿&lt;/title&gt;\
+  &lt;link rel="stylesheet" href="css/poster.css"&gt;\
+&lt;/head&gt;\
+&lt;body&gt;\
+    &lt;ol&gt;\
+        &lt;li&gt;입춘맞이 : 1/27(월) ~ 1/31(금)&lt;/li&gt;\
+        &lt;li&gt;낭쉐코사 : 2/1(토)&lt;/li&gt;\
+        &lt;li&gt;거리굿 : 2/2(일)&lt;/li&gt;\
+        &lt;li&gt;열림굿 : 2/3(월)&lt;/li&gt;\
+        &lt;li&gt;입춘굿 : 2/4(화)&lt;/li&gt;\
+      &lt;/ol&gt;\
+&lt;/body&gt;\
+&lt;/html&gt;\
  
  
   
