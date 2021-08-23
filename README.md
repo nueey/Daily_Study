@@ -101,4 +101,4 @@ target : action 속성에서 지정한 스크립트 파일을 현재 창이 아�
 <label>아이디(6자이상)<input type="text"></label>
 ```
 
-***&lt;lavel&gt;태그는 &lt;input&gt;태그와 같은 폼 요소에 레이블을 붙일때 사용하는 구나!***
+***&lt;label&gt;태그는 &lt;input&gt;태그와 같은 폼 요소에 레이블을 붙일때 사용하는 구나!***
