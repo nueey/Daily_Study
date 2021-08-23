@@ -73,4 +73,20 @@ width, height 속성에서 사용할 수 있는 단위는 퍼센트(%)와 픽셀
 이미지 크기의 값을 픽셀(px)로 지정하면 이미지의 너비나 높이를 해당 픽셀 크기만큼 표시한다
 ```
 
-### HTML에 오디오와 비디오 
+### HTML에 폼을 만드는 &lt;form&gt; 태그
+```
+method : 사용자가 입력한 내용을 서버쪽 프로그램으로 어떻게 넘겨줄 것인지 지정한다
+name : 자바스크립트로 폼을 제어할 때 사용할 폼의 이름을 지정한다
+action : <form> 태그 안의 내용으 처리해 줄 서버 프로그램을 지정한다
+target : action 속성에서 지정한 스크립트 파일을 현재 창이 아닌 다른 위치에서 열도록 한다
+```
+
+### HTML 폼 만들기
+<form action="">
+ <fieldset>
+  <legend>상품 선택</legend>
+ </fieldset>
+ <fieldset>
+  <legend>배송 정보</legend>
+ </fieldset>
+ </form>
