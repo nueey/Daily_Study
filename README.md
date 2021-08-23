@@ -41,51 +41,51 @@
 ***&lt;ol&gt;과 &lt;li&gt;는 순서있는 목록을 입력하군!***
  
 ### HTML 표 만들기 실습
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-</head>
-<body>
-  <h2>상품 구성</h2>
-  <table>
-    <caption>선물용과 가정용 상품 구성</caption>
-    <thead>
-      <tr>
-        <th>용도</th>
-        <th>중량</th>
-        <th>갯수</th>
-        <th>가격</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>선물용</td>
-        <td>3kg</td>
-        <td>11~16과</td>
-        <td>35,000원</td>
-      </tr>
-      <tr>
-        <td>선물용</td>
-        <td>5kg</td>
-        <td>18~26과</td>
-        <td>52,000원</td>
-      </tr>
-      <tr>
-        <td>가정용</td>
-        <td>3kg</td>
-        <td>11~16과</td>
-        <td>30,000원</td>
-      </tr>   
-      <tr>
-        <td>가정용</td>
-        <td>5kg</td>
-        <td>18~26과</td>
-        <td>47,000원</td>
-      </tr>
-    </tbody>        
-  </table>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;\
+&lt;html lang="ko"&gt;\
+&lt;head&gt;\
+&lt;/head&gt;\
+&lt;body&gt;\
+  &lt;h2>상품 구성&lt;/h2&gt;\
+  &lt;table&gt;\
+    &lt;caption&gt;선물용과 가정용 상품 구성&lt;/caption&gt;\
+    &lt;thead&gt;\
+      &lt;tr&gt;\
+        &lt;th&gt;용도&lt;/th&gt;\
+        &lt;th&gt;중량&lt;/th&gt;\
+        &lt;th&gt;갯수&lt;/th&gt;\
+        &lt;th&gt;가격&lt;/th&gt;\
+      &lt;/tr&gt;\
+    &lt;/thead&gt;\
+    &lt;tbody&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;선물용&lt;/td&gt;\
+        &lt;td&gt;3kg&lt;/td&gt;\
+        &lt;td&gt;11~16과&lt;/td&gt;\
+        &lt;td&gt;35,000원&lt;/td&gt;\
+      &lt;/tr&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;선물용&lt;/td&gt;\
+        &lt;td&gt;5kg&lt;/td&gt;\
+        &lt;td&gt;18~26과&lt;/td&gt;\
+        &lt;td&gt;52,000원&lt;/td&gt;\
+      &lt;/tr&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;가정용&lt;/td&gt;\
+        &lt;td&gt;3kg&lt;/td&gt;\
+        &lt;td&gt;11~16과&lt;/td&gt;\
+        &lt;td&gt;30,000원&lt;/td&gt;\
+      &lt;/tr&gt;\
+      &lt;tr&gt;\
+        &lt;td&gt;가정용&lt;/td&gt;\
+        &lt;td&gt;5kg&lt;/td&gt;\
+        &lt;td&gt;18~26과&lt;/td&gt;\
+        &lt;td&gt;47,000원&lt;/td&gt;\
+      &lt;/tr&gt;\
+    &lt;/tbody&gt;\
+  &lt;/table&gt;\
+&lt;/body&gt;\
+&lt;/html&gt;
 
 
 
