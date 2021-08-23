@@ -82,11 +82,23 @@ target : action 속성에서 지정한 스크립트 파일을 현재 창이 아�
 ```
 
 ### HTML 폼 만들기
-<form action="">
- <fieldset>
-  <legend>상품 선택</legend>
- </fieldset>
- <fieldset>
-  <legend>배송 정보</legend>
- </fieldset>
- </form>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>레드향 주문하기</title>
+</head>
+<body>
+  <h1>레드향 주문하기</h1>
+  <form action="">
+    <fieldset>
+      <legend>상품 선택</legend>
+      
+    </fieldset>
+    <fieldset>
+      <legend>배송 정보</legend>
+      
+    </fieldset>      
+  </form>
+</body>
+</html>
