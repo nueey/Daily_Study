@@ -1,10 +1,11 @@
 ## Daily_Study
 
 ### HTML 문서의 기본 구조
- &lt;html&gt;는 웹 문서의 시작을 알리는 html 태그\
+ ```
+ <html>는 웹 문서의 시작을 알리는 html 태그\
  &lt;head&gt;는 웹 브라우저에 문서 정보를 알려주는 태그\
  &lt;title&gt;는 문서 제목을 나타내는 태그
- 
+ ```
 ### HTML 목록 실습
 &lt;!DOCTYPE html&gt;\
 &lt;html lang="ko"&gt;\
@@ -41,54 +42,9 @@
 ***&lt;ol&gt;과 &lt;li&gt;는 순서있는 목록을 입력하군!***
  
 ### HTML 표 만들기 실습
-&lt;!DOCTYPE html&gt;\
-&lt;html lang="ko"&gt;\
-&lt;head&gt;\
-&lt;/head&gt;\
-&lt;body&gt;\
-  &lt;h2>상품 구성&lt;/h2&gt;\
-  &lt;table&gt;\
-    &lt;caption&gt;선물용과 가정용 상품 구성&lt;/caption&gt;\
-    &lt;thead&gt;\
-      &lt;tr&gt;\
-        &lt;th&gt;용도&lt;/th&gt;\
-        &lt;th&gt;중량&lt;/th&gt;\
-        &lt;th&gt;갯수&lt;/th&gt;\
-        &lt;th&gt;가격&lt;/th&gt;\
-      &lt;/tr&gt;\
-    &lt;/thead&gt;\
-    &lt;tbody&gt;\
-      &lt;tr&gt;\
-        &lt;td&gt;선물용&lt;/td&gt;\
-        &lt;td&gt;3kg&lt;/td&gt;\
-        &lt;td&gt;11~16과&lt;/td&gt;\
-        &lt;td&gt;35,000원&lt;/td&gt;\
-      &lt;/tr&gt;\
-      &lt;tr&gt;\
-        &lt;td&gt;선물용&lt;/td&gt;\
-        &lt;td&gt;5kg&lt;/td&gt;\
-        &lt;td&gt;18~26과&lt;/td&gt;\
-        &lt;td&gt;52,000원&lt;/td&gt;\
-      &lt;/tr&gt;\
-      &lt;tr&gt;\
-        &lt;td&gt;가정용&lt;/td&gt;\
-        &lt;td&gt;3kg&lt;/td&gt;\
-        &lt;td&gt;11~16과&lt;/td&gt;\
-        &lt;td&gt;30,000원&lt;/td&gt;\
-      &lt;/tr&gt;\
-      &lt;tr&gt;\
-        &lt;td&gt;가정용&lt;/td&gt;\
-        &lt;td&gt;5kg&lt;/td&gt;\
-        &lt;td&gt;18~26과&lt;/td&gt;\
-        &lt;td&gt;47,000원&lt;/td&gt;\
-      &lt;/tr&gt;\
-    &lt;/tbody&gt;\
-  &lt;/table&gt;\
-&lt;/body&gt;\
-&lt;/html&gt;
-
-
-
++ 표의 시작과 끝을 알려주는 &lt;table&gt;과 &lt;/table&gt; 태그를 표시하고
++ 표에 제목을 붙이고 싶다면 &lt;table&gt; 태그 바로 아랫줄에 &lt;caption&gt; 태그를 사용한다.
++ &lt;tr&gt; 태그는 행을 만들고 &lt;td&gt; 태그는 행안에 셀을 만든다
 
 
 
