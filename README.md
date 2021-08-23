@@ -5,7 +5,7 @@
  &lt;head&gt;는 웹 브라우저에 문서 정보를 알려주는 태그\
  &lt;title&gt;는 문서 제목을 나타내는 태그
  
-### HTML 직접 실습하기
+### HTML 목록 실습
 &lt;!DOCTYPE html&gt;\
 &lt;html lang="ko"&gt;\
 &lt;head&gt;\
@@ -43,5 +43,71 @@
 </body>
 </html>
 
-***&lt;li&gt;는 순서있는 목록을 입력하군!***
+***&lt;ol&gt;과 &lt;li&gt;는 순서있는 목록을 입력하군!***
  
+### HTML 표 만들기 실습
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>상품 소개 페이지</title>
+  <style>
+    table, th, td {
+      border:1px solid #ccc;
+      border-collapse: collapse;
+    }
+    th, td { padding:10px 20px; }
+  </style>
+</head>
+<body>
+  <h2>상품 구성</h2>
+  <table>
+    <caption>선물용과 가정용 상품 구성</caption>
+    <thead>
+      <tr>
+        <th>용도</th>
+        <th>중량</th>
+        <th>갯수</th>
+        <th>가격</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>선물용</td>
+        <td>3kg</td>
+        <td>11~16과</td>
+        <td>35,000원</td>
+      </tr>
+      <tr>
+        <td>선물용</td>
+        <td>5kg</td>
+        <td>18~26과</td>
+        <td>52,000원</td>
+      </tr>
+      <tr>
+        <td>가정용</td>
+        <td>3kg</td>
+        <td>11~16과</td>
+        <td>30,000원</td>
+      </tr>   
+      <tr>
+        <td>가정용</td>
+        <td>5kg</td>
+        <td>18~26과</td>
+        <td>47,000원</td>
+      </tr>
+    </tbody>        
+  </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
