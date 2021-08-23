@@ -27,11 +27,6 @@
 ### 실행결과
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>탐라국 입춘굿</title>
-  <link rel="stylesheet" href="css/poster.css">
-</head>
 <body>
     <ol>
         <li>입춘맞이 : 1/27(월) ~ 1/31(금)</li>
@@ -49,7 +44,6 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  
 </head>
 <body>
   <h2>상품 구성</h2>
