@@ -1,6 +1,6 @@
 # Daily_Study
 
-<!DOCTYPE html> // 웹 문서의 유형을 지정하는 선언문
+.<!DOCTYPE html> // 웹 문서의 유형을 지정하는 선언문
 <html lang="ko"> // 
 <head>
   <meta charset="UTF-8">
