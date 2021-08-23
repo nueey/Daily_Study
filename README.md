@@ -49,15 +49,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>상품 소개 페이지</title>
-  <style>
-    table, th, td {
-      border:1px solid #ccc;
-      border-collapse: collapse;
-    }
-    th, td { padding:10px 20px; }
-  </style>
+  
 </head>
 <body>
   <h2>상품 구성</h2>
